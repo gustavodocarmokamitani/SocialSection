@@ -1,0 +1,43 @@
+.buyer__container {
+    background: var(--purple-dark);
+    border-radius: 10px;
+    padding: 25px;
+    height: 230px;
+}
+
+.buyer__perfil {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.buyer__name {
+    margin: 0;
+    font-size: 0.975rem;
+    font-weight: 400;
+    color: #fff;
+    margin-top: .5rem;
+    line-height: .8rem;
+}
+
+.buyer__verifid {
+    margin: 0;
+    font-size: 0.975rem;
+    font-weight: 400;
+    color: var(--pink);
+}
+
+.buyer__text {
+    font-size: 0.825rem;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-top: 25px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .buyer__container {
+        
+    }
+}
