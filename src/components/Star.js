@@ -4,10 +4,6 @@ import './Star.scss';
 
 import star from '../assets/icon-star.svg';
 
-import {
-
-} from 'react-bootstrap';
-
 const Star = ({text}) => {
     return (
         <div className='hero__star'>
